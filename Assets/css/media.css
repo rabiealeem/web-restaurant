@@ -1,0 +1,76 @@
+@media(max-width:800px){
+    .text1a h1{
+        font-size: 63px;
+    }
+   .imgab1 img{
+        height: 450px;
+    }
+    .absec1 .hdg{
+         font-size: 50px;
+
+    }
+    .mainabout4 .hdg{
+        font-size: 50px;
+    }
+    .vid .hdg{
+        font-size: 50px;
+    }
+    .text1 h1{
+         font-size: 52px;
+    }
+    .text1 p{
+         font-size: 10px;
+    }
+   .main2 .hdg{
+         font-size: 50px;
+   }
+   .bow .hdg{
+         font-size: 50px;
+   }
+   .main7 .hdg{
+         font-size: 50px;
+   }
+    .main8 .hdg{
+         font-size: 45px;
+   }
+   .tc .butt{
+    font-size: 15px;
+    height: 35px;
+    width: 90px;
+   }
+   .ro1 .but3{
+    font-size: 17px;
+    height: 39px;
+    width: 95px;
+   }
+   .bow .but3{
+    font-size: 17px;
+    height: 39px;
+    width: 95px;
+   }
+   .main8 .but3{
+    font-size: 17px;
+    height: 39px;
+    width: 95px;
+   }
+   .contact{
+     height: 350px;
+     margin-bottom: 20px;
+   }
+   .maincont3 .hdg{
+             font-size: 45px;
+   }
+   .maincont4 .hdg{
+            font-size: 45px;
+   }
+   .bow .hdg{
+        font-size: 45px;
+   }
+   .main-4 .hdg{
+         font-size: 45px;
+   }
+   .mainmenu2 .appi{
+               font-size: 40px;
+
+   }
+}

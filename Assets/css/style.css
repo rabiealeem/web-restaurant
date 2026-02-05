@@ -1,0 +1,2183 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
+
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.bg-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.navbar {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    padding: 20px 50px;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.logo {
+    height: 40px;
+    width: auto;
+    display: block;
+    margin-left: 10px;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin-left: 20px;
+}
+
+.navbar-nav li a {
+    font-size: 17px;
+    color: #ffff;
+    font-family: jost-Regular;
+    transition: 1s;
+}
+
+@font-face {
+    font-family: jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+nav .collapse ul.navbar-nav li:hover a {
+    color: #bf9261;
+}
+.ofc::before{
+   background-color: #bf9261 !important;
+   height: 1px !important;
+}
+.b {
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #bf9261;
+    margin-right: 10px;
+    outline: none;
+    border: 1px solid #bf9261;
+    transition: 1s;
+    font-family: jost-light;
+}
+
+@font-face {
+    font-family: jost-light;
+    src: url(../fonts/jost-3/Jost-Light.ttf);
+}
+
+.b:hover {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+}
+.str::before{
+    background-color: #bf9261 !important;
+}
+.text1 h1 {
+    color: #bf9261;
+    margin-top: 200px;
+    font-size: 70px;
+    font-family: Cormorant-Bold;
+    text-shadow: 2px 2px 7px rgb(35, 34, 34);
+
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.text1 p {
+    color: #f9f8f8;
+    font-size: 16px;
+    font-family: Jost-ExtraLight;
+    text-shadow: 2px 2px 7px rgb(35, 34, 34);
+
+}
+
+@font-face {
+    font-family: Jost-ExtraLight;
+    src: url(../fonts/jost-3/Jost-ExtraLight.ttf);
+}
+
+.butt {
+
+    font-size: 19px;
+    height: 42px;
+    width: 110px;
+    background: rgba(0, 0, 0, 0.3);
+    color: #bf9261;
+    border: 1px solid #bf9261;
+    transition: 1s;
+    font-family: Jost-light;
+}
+
+@font-face {
+    font-family: Jost-light;
+    src: url(../fonts/jost-3/Jost-Light.ttf);
+}
+
+.butt:hover {
+    background-color: white;
+    color: #fff;
+    border: 1px solid white;
+}
+
+.main2 {
+    /* margin-top: 70px; */
+    /* height: 700px; */
+    background-image: url(../img/bottle.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+.subtitle {
+    margin-top: 80px;
+    font-size: 19px;
+    color: #bf9261;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.ro1 {
+    /* height: 600px; */
+    /* border: 1px solid black; */
+
+}
+
+.cl {
+    height: 400px;
+    /* border: 1px solid black; */
+    position: relative;
+}
+
+.yellowglass {
+    position: absolute;
+    right: 0%;
+    top: 70px;
+}
+
+.hdg {
+    font-size: 60px;
+    font-family:Cormorant-Medium;
+    font-weight:500;
+}
+
+@font-face {
+    font-family: Cormorant-Medium;
+    src: url(../fonts/cormorant/Cormorant-Medium.otf);
+}
+
+.imag {
+    /* margin-top: 150px; */
+    border-radius: 5em 0em 5em 0em;
+
+}
+
+.para {
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.but3 {
+    margin-top: 30px;
+    font-size: 18px;
+    height: 40px;
+    width: 100px;
+    background: #bf9261;
+    color: #fff;
+    border: none;
+    transition: 1s;
+    font-family: Jost-light;
+}
+
+@font-face {
+    font-family: Jost-light;
+    src: url(../fonts/jost-3/Jost-Light.ttf);
+}
+
+.but3:hover {
+    background-color: black;
+}
+
+.main3 {
+    margin-top: 100px;
+    /* height: 700px; */
+    /* border: 1px solid black; */
+}
+
+/* .pic3 { */
+    /* height: 650px; */
+    /* border: 1px solid black; */
+
+
+.image1 {
+    /* width: 260px; */
+    /* height: 650px; */
+    /* background-image: url(../img/ndimg-vertical-01.jpg); */
+    /* background-position: center; */
+    /* background-size: cover; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/ndimg-vertical-01.jpg);
+    background-size: cover;
+
+}
+
+.image2 {
+    /* width: 260px; */
+    /* height: 650px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/ndimg-vertical-02.jpg);
+    background-size: cover;
+
+
+}
+
+.image3 {
+    /* width: 260px; */
+    /* height: 650px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/ndimg-vertical-03.jpg);
+    background-size: cover;
+
+}
+
+.image4 {
+    /* width: 260px; */
+    /* height: 650px; */
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/ndimg-vertical-04.jpg);
+    background-size: cover;
+}
+
+.sub {
+    color: white;
+    font-size: 24px;
+    font-family: Cormorant-Bold;
+    /* transform: translateY(450px); */
+    text-shadow: 2px 2px 7px rgb(35, 34, 34);
+    padding-top: 450px;
+
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.pa {
+    color: white;
+    font-family: jost-light;
+    font-size: 16px;
+    /* transform: translateY(460px); */
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+@font-face {
+    font-family: Jost-light;
+    src: url(../fonts/jost-3/Jost-Light.ttf);
+}
+
+.main4 {
+    /* margin-top: 100px; */
+    /* height: 700px; */
+    background-image: url(../img/ndimg-bgclear-01.jpg);
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 1px solid black; */
+}
+
+/* .bow{
+    /* height: 700px; */
+/* border: 1px solid black;} */
+
+/* .glass{ */
+/* height: 660px; */
+/* } */
+
+.subt {
+    margin-top: 60px;
+    font-size: 19px;
+    color: #bf9261;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.make {
+    /* height: 40px; */
+    /* width: 540px; */
+    /* background-color: aqua; */
+    font-size: 21.6px;
+    font-family: Cormorant-Bold;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.make2 {
+    /* height: 60px; */
+    /* width: 500px; */
+    /* background-color: rgb(218, 225, 182); */
+    display: none;
+    font-size: 16px;
+    font-family: Jost-Regular;
+    color: #363636;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.ic {
+    font-size: 15px;
+    margin: 0px 0px 0px -5px;
+}
+
+.make3 {
+    /* height: 40px; */
+    /* width: 540px; */
+    /* background-color: aqua; */
+    font-size: 21.6px;
+    font-family: Cormorant-Bold;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.make4 {
+    /* height: 60px; */
+    /* width: 500px; */
+    /* background-color: rgb(218, 225, 182); */
+    display: none;
+    font-size: 16px;
+    font-family: Jost-Regular;
+    color: #363636;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.main5 {
+    /* height: 200px; */
+    /* border: 1px solid black; */
+    margin-top: 40px;
+}
+
+/* .ro2{
+     height: 180px; 
+     border: 1px solid rgb(140, 21, 21);
+     
+} */
+.inn {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(../img/ndimg-icononsoftbg-01.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.market {
+    color: black;
+    font-size: 24px;
+    font-family: Cormorant-Bold;
+
+}
+
+@font-face {
+    font-family: Cormorant-Bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.prem {
+    font-size: 16px;
+    font-family: Jost-Regular;
+    color: #363636;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.inn2 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(../img/ndimg-icononsoftbg-02.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.inn3 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(../img/ndimg-icononsoftbg-03.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.inn4 {
+    height: 80px;
+    width: 80px;
+    margin: auto;
+    margin-top: 30px;
+    background-image: url(../img/ndimg-icononsoftbg-04.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.main6 {
+    /* height: 700px; */
+    /* border: 1px solid black; */
+    margin-top: 60px;
+}
+
+.lin1 {
+    height: 300px;
+    background-image: url(../img/ndimg-post-01.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.lin2 {
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: #f9f8f8;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner2 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/ndimg-square-01-300x300.jpg);
+    /* margin: auto; */
+    background-size: cover;
+    position: absolute;
+    /* top: 50px; */
+    /* left: 55px; */
+    background-position: center;
+    animation: zoomInOut 2s infinite alternate ease-in-out;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.inner2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.lin3 {
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(../img/ndimg-square-02.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.lin4 {
+    height: 300px;
+    /* border: 1px solid black; */
+    background-color: black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner4 {
+    width: 200px;
+    height: 200px;
+    background-image: url(../img/ndimg-square-03-300x300.jpg);
+    /* margin: auto; */
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    /* top: 50px; */
+    /* left: 55px; */
+    animation: zoomInOut 2s infinite alternate ease-in-out;
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+.inner4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.lin5 {
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(../img/ndimg-square-04.jpg);
+    background-size: cover;
+    background-position: center;
+
+}
+
+.lin6 {
+    height: 300px;
+    /* border: 1px solid black; */
+    background-image: url(../img/ndimg-parallax-07.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.fix1 {
+    position: fixed;
+    bottom: 10PX;
+    right: 10px;
+    font-size: 17px;
+    height: 28px;
+    width: 28px;
+    background: #bf9261;
+    color: #fff;
+    /* border: 1px solid #bf9261; */
+    transition: 1s;
+    font-family: Jost-regular;
+    padding-top: 2px;
+    border-radius: 100%;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.fix1:hover {
+    background-color: black;
+}
+
+.main7 {
+    /* height: 1000px; */
+    /* background-color: #bf9261; */
+    background-image: url(../img/ndimg-bgclear-02.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.ro {
+    /* height: 450px; */
+    border: 1px solid #e5e5e5;
+}
+
+.outer {
+    overflow: hidden;
+}
+
+.inn11 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-06.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+
+.inn11:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inn11:hover .atc {
+    transform: translateY(265px);
+}
+
+.atc {
+    width: 130px;
+    height: 40px;
+    font-size: 17px;
+    /* margin-left: 125px; */
+    background-color: #bf9261;
+    color: white;
+    transform: translateY(390px);
+    transition: 1s;
+    border: none;
+    border-radius: 20px;
+    padding: 5px 8px 5px 8px;
+    font-family: jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.dish {
+
+    font-size: 24px;
+    font-family: Cormorant-bold;
+
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.rupee {
+    color: #363636;
+    font-size: 16px;
+    font-family: Jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.inn12 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-04.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.inn12:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inn12:hover .atc {
+    transform: translateY(265px);
+}
+
+.inn13 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-01.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.inn13:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inn13:hover .atc {
+    transform: translateY(265px);
+}
+
+.count {
+    flex-direction: column;
+    align-items: center;
+}
+
+.supp {
+    color: #363636;
+    font-size: 16px;
+    font-family: Cormorant-bold;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.numb {
+    color: black;
+    font-size: 64px;
+    font-family: Cormorant-Regular;
+    border-top: 1px solid #e5e5e5;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: Cormorant-Regular;
+    src: url(../fonts/cormorant/Cormorant-Regular.otf);
+}
+
+.smallpics1 {
+    width: 60px;
+    height: 70px;
+    background-image: url(../img/ndimg-avatar-02.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    margin-left: 30px
+        /* border: 1px solid #bf9261; */
+
+}
+
+.smallpics2 {
+    width: 60px;
+    height: 70px;
+    background-image: url(../img/ndimg-avatar-01.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    margin-left: -10px;
+    /* border: 1px solid #bf9261; */
+
+
+}
+
+.smallpics3 {
+    width: 60px;
+    height: 70px;
+    background-image: url(../img/ndimg-avatar-03.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    margin-left: -10px;
+    /* border: 1px solid #bf9261; */
+
+
+}
+
+.smallpics4 {
+    width: 60px;
+    height: 70px;
+    background-image: url(../img/ndimg-avatar-04.jpg);
+    background-position: center;
+    background-size: cover;
+    border-radius: 100%;
+    float: left;
+    margin-left: -10px;
+    /* border: 1px solid #bf9261; */
+
+
+}
+
+/* .ibox{
+    /* width: 100%; */
+/* border-top: 1px solid #e5e5e5; */
+/* padding-top: 25px; */
+
+.ibox2 {
+    width: 100%;
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+}
+
+.ro3 {
+    border: 1px solid #bf9261;
+}
+
+/* .main8{
+    height: 1000px;
+    /* border: 1px solid black; */
+
+/* .blog{
+     height: 600px;
+        border: 1px solid black;
+
+} */
+.outerb {
+    height: 450px;
+    /* border: 1px solid black; */
+    overflow: hidden;
+
+
+}
+
+.innerb {
+    height: 450px;
+    background-image: url(../img/blog1.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.poc {
+    font-size: 23px;
+    font-family: Cormorant-bold;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.para2 {
+    font-size: 16px;
+    font-family: Jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.read {
+    color: #bf9261;
+    font-size: 16px;
+    font-family: Jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.imgb1 {
+    height: 120px;
+    overflow: hidden;
+}
+
+.inner30 {
+    height: 120px;
+    background-image: url(../img/ndimg-post-01.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.inner30:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inner31 {
+    height: 120px;
+    background-image: url(../img/ndimg-post-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.inner31:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inner32 {
+    height: 120px;
+    background-image: url(../img/ndimg-post-03.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.inner32:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.inner33 {
+    height: 120px;
+    background-image: url(../img/p5.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.inner33:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.footer {
+    /* height: 500px; */
+    background-image: url(../img/ndimg-slide-03.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+.innershadow {
+    /* height: 500px; */
+    width: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.fot {
+    /* height: 300px; */
+    /* border: 1px solid white; */
+    background-color: #bf9261;
+}
+
+.fotter {
+    padding-top: 90px;
+    width: 100%;
+}
+
+.log {
+    height: 90px;
+    width: 150px;
+    background-image: url(../img/logo-white-square.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.details {
+    /* width: 420px; */
+    color: #D4D4D4;
+    font-size: 15px;
+    font-family: Jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.socialicn {
+    font-size: 16px;
+    color: #D4D4D4;
+    padding-left: 10px;
+}
+
+.hdg4 {
+    font-size: 23px;
+    color: white;
+    font-family: Cormorant-bold;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.details2 {
+    font-size: 16px;
+    color: #D4D4D4;
+    font-family: Jost-Regular;
+    line-height: 40px;
+
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.copy {
+    /* margin-top: -30px; */
+    font-size: 15px;
+    color: #D4D4D4;
+    font-family: jost-regular;
+}
+
+@font-face {
+    font-family: Jost-regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.copy span .fa {
+    color: red;
+    margin-top: 100px;
+}
+
+                                            /* About us */
+.header {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* text-align: center; */
+    flex-direction: column;
+}
+.con{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),url(../img/ndimg-headerabout02-01.jpg);
+     height: 850px;
+    background-size: cover;
+    background-position: center;    
+}
+
+.text1a h1 {
+    color: #bf9261;
+    margin-top: 200px;
+    font-size: 80px;
+    font-family: Cormorant-Medium;
+    text-shadow: 2px 2px 7px rgb(35, 34, 34);
+    transition: 0.5s;
+
+}
+
+@font-face {
+    font-family: Cormorant-Medium;
+    src: url(../fonts/cormorant/Cormorant-Medium.otf);
+}   
+.butbook {
+    font-size: 18px;
+    height: 40px;
+    width: 120px;
+    background: #bf9261;
+    color: white;
+    /* margin-right: 10px; */
+    outline: none;
+    border: none;
+    transition: 1s;
+    font-family: jost-light;
+}
+
+@font-face {
+    font-family: jost-light;
+    src: url(../fonts/jost-3/Jost-Light.ttf);
+}
+
+.butbook:hover {
+    background-color: black;
+    color: #bf9261;
+    border: 1px solid #bf9261;
+}
+
+.mainabout2 {
+    /* height: 600px; */
+    /* background-color: aquamarine; */
+    margin-top: 70px;
+}
+
+/* .absec1 {
+    /* height: 600px; */
+    /* border: 1px solid black; */
+
+
+.subtitleabout {
+    margin-top: 20px;
+    font-size: 19px;
+    color: #bf9261;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.hqsd {
+    color: black;
+    font-size: 16px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.hqss {
+    height: 9px;
+    /* border: 1px solid black; */
+    display: flex;
+}
+
+.hqs1 {
+    height: 9px;
+    width: 500px;
+    background-color: #bf9261;
+}
+
+.hqs2 {
+    height: 9px;
+    width: 100px;
+    background-color: #D4D4D4;
+}
+
+.hqs3 {
+    height: 9px;
+    width: 450px;
+    background-color: black;
+}
+
+.hqs4 {
+    height: 9px;
+    width: 150px;
+    background-color: #D4D4D4;
+}
+
+.hqs5 {
+    height: 9px;
+    width: 350px;
+    background-color: #bf9261;
+}
+
+.hqs6 {
+    height: 9px;
+    width: 250px;
+    background-color: #D4D4D4;
+}
+
+.mainabout3 {
+    margin-top: 90px;
+    margin-bottom: 80px;
+    height: 90px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/ndimg-post-01.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+/* .mainabout4 { */
+    /* height: 800px; */
+    /* background-color: aqua; */
+/* } */
+
+.ccr {
+    /* height: 590px; */
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-around; */
+}
+
+.boxab2 {
+    height: 170px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #D4D4D4;
+
+}
+
+.boxab22 {
+    height: 170px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #D4D4D4;
+    background-color: #F1F1F1;
+
+}
+
+.boxab23 {
+    height: 170px;
+    width: 100%;
+    /* background-color: blueviolet; */
+    display: flex;
+    align-items: center;
+    border: 1px solid #D4D4D4;
+    background-color: #bf9261;
+
+}
+
+.smallimg {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/ndimg-square-01-300x300.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.smallimg2 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/ndimg-square-02-300x300.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.smallimg3 {
+    width: 70px;
+    height: 70px;
+    background-image: url(../img/ndimg-square-03-300x300.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-left: 30px;
+}
+
+.textabout1 {
+    /* background-color: #bf9261; */
+    width: 400px;
+    height: 100px;
+    margin-left: 20px;
+    position: relative;
+}
+
+.reliable {
+    color: black;
+    font-size: 16px;
+    font-family: Cormorant-bold;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.design {
+    color: #363636;
+    font-size: 16px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.butab {
+
+    font-size: 13px;
+    height: 22px;
+    width: 60px;
+    background: #bf9261;
+    color: white;
+    transition: 1s;
+    font-family: Jost-regular;
+    border: none;
+    position: absolute;
+    right: 10px;
+    top: 80px;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.butab:hover {
+    background-color: black;
+    color: #fff;
+}
+
+.doller {
+    font-size: 17px;
+    font-family: Cormorant-bold;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    left: 300px;
+
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.currency {
+    font-size: 16px;
+}
+
+.carefully {
+    font-size: 24px;
+    font-family: Cormorant-bold;
+    color: black;
+    margin: auto;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.every {
+    font-size: 16px;
+    font-family: Jost-regular;
+    color: #363636;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+/* .vid { */
+    /* height: 900px; */
+    /* border:1px solid black; */
+/* } */
+
+.men {
+    /* height: 550px; */
+    /* background-color: black; */
+    position: relative;
+    /* width: 600px%; */
+    overflow: hidden;
+
+}
+
+.men img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.overlay {
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 40%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+}
+
+.name {
+    font-size: 24px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    color: white;
+    font-family: Cormorant-bold;
+    z-index: 1;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+/* Menu */
+
+
+.conmenu{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),url(../img/ndimg-post-01.jpg);
+     height: 850px;
+    background-size: cover;
+    background-position: center;    
+}
+
+/* .mainmenu2 { */
+    /* height: 900px; */
+    /* background-color: aqua; */
+    /* display: flex; */
+    /* justify-content: center; */
+
+/* } */
+
+.appi {
+    font-size: 54px;
+    color: black;
+    font-family: Cormorant-Medium;
+}
+
+@font-face {
+    font-family: Cormorant-Medium;
+    src: url(../fonts/cormorant/Cormorant-Medium.otf);
+}
+
+.innm1 {
+    height: 350px;
+    background-image: url(../img/ndimg-square-04.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm1:hover .atc {
+    transform: translateY(265px);
+}
+
+.innm2 {
+    height: 350px;
+    background-image: url(../img/ndimg-square-03.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm2:hover .atc {
+    transform: translateY(265px);
+}
+
+.innm3 {
+    height: 350px;
+    background-image: url(../img/ndimg-square-02.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm3:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm3:hover .atc {
+    transform: translateY(265px);
+}
+
+.innm4 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-03-600x600.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm4:hover .atc {
+    transform: translateY(265px);
+}
+
+.innm5 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-02-600x600.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm5:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm5:hover .atc {
+    transform: translateY(265px);
+}
+
+.innm6 {
+    height: 350px;
+    background-image: url(../img/ndimg-product-05.jpg);
+    background-size: cover;
+    transition: 1s;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.innm6:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innm6:hover .atc {
+    transform: translateY(265px);
+}
+
+/* contact us */
+.concont{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),url(../img/ndimg-headercontact01-01.jpg);
+     height: 850px;
+    background-size: cover;
+    background-position: center;    
+}
+
+.maincont2 {
+
+    /* height: 600px; */
+    background-color: #f3f0f0;
+
+}
+
+.contact {
+    /* width: 600px; */
+    /* margin-top: 50px; */
+    height: 450px;
+
+    /* border: 1px solid black; */
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-wrap: wrap; */
+}
+
+.smallfolk {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../img/ndimg-icononsoftbg-01.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.roe {
+    font-size: 24px;
+    font-family: Cormorant-bold;
+    color: black;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.find {
+    font-size: 17px;
+    font-family: Jost-regular;
+    color: #363636;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.emailcon {
+    font-size: 16px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.smallfolk2 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../img/ndimg-icononsoftbg-02.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.smallfolk3 {
+    width: 80px;
+    height: 80px;
+    margin: auto;
+    background-image: url(../img/ndimg-icononsoftbg-03.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.maincont3 {
+    /* height: 1000px; */
+}
+
+.for {
+    /* height: 687px; */
+    /* width: 945px; */
+    /* background-color: #a4cb85; */
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap:wrap; */
+
+}
+
+.for1 {
+    width: 125px;
+    height: 98px;
+    /* border: 1px solid black; */
+}
+
+.for2 {
+    /* width: 300px; */
+    height: 1px;
+    /* border: 1px solid black; */
+    margin-top: 30px;
+    background-color: #D4D4D4;
+}
+
+.one {
+    width: 40px;
+    height: 40px;
+    background-color: #bf9261;
+    border-radius: 100%;
+    margin: auto;
+    color: white;
+    font-size: 23px;
+    font-family: Jost-Regular;
+    padding-top: 3px;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+.two {
+    width: 40px;
+    height: 40px;
+    /* background-color: #bf9261; */
+    border: 1px solid #bf9261;
+    border-radius: 100%;
+    margin: auto;
+    color: #bf9261;
+    font-size: 23px;
+    font-family: Jost-Regular;
+    padding-top: 3px;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+.per {
+    color: black;
+    font-size: 16px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.fn {
+    /* width: 200px; */
+    height: 30px;
+    border: 1px solid black;
+}
+
+.form-control {
+    height: 47px;
+    /* padding: 6px 12px; */
+    font-size: 16px !important;
+    border: 1px solid #ced4da !important;
+    border-radius: 0px !important;
+    font-family: Jost-Regular;
+    outline: none;
+
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.lab {
+    font-size: 17px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.space {
+    margin-top: 65px !important;
+}
+
+.coun {
+    width: 100%;
+    height: 47px;
+    border: 1px solid black;
+}
+
+.form-control2 {
+    /* height: 70px; */
+    /* padding: 6px 12px; */
+    font-size: 16px !important;
+    /* border: 1px solid #ced4da !important; */
+    /* border-radius: 0px !important; */
+    font-family: Jost-Regular;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    /* max-width: 800px; */
+    margin: 20px auto;
+    outline: none;
+
+
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+label {
+    margin-bottom: 10px;
+    font-weight: 500;
+    color: #333;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 15px;
+    border: 1px solid #ced4da !important;
+    border-radius: 0px !important;
+    resize: vertical;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.next {
+    font-family: Jost-Regular;
+    background-color: #bf9261;
+    color: white;
+    border: none;
+    padding: 12px;
+    margin-top: 15px;
+    /* cursor: pointer; */
+    font-size: 17px;
+    width: 100%;
+    transition: background 0.3s;
+}
+
+.next:hover {
+    background-color: black;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+/* .maincont4{
+    height: 600px;
+} */
+/* .map { */
+    /* width: 1116px; */
+    /* height: 480px ; */
+    /* background-color: rgb(53, 108, 155); */
+    /* margin: auto; */
+/* } */
+
+.cf {
+    background-color: #bf9261;
+    height: 300px;
+}
+
+
+                                    /* Blog */
+.conblog{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),url(../img/ndimg-headerarchiveposts-01.jpg);
+     height: 850px;
+    background-size: cover;
+    background-position: center;    
+}
+.bl{
+    margin-top: 7px;
+}
+/* .mainblog1 {
+    height: 510px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.6)), url(../img/ndimg-headerarchiveposts-01.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.blg10 {
+    /* height: 800px; */
+    /* border: 1px solid black; */
+    position: relative;
+   
+
+}
+
+.stik {
+    position: sticky;
+     top: 70px;
+}
+
+.innerb2 {
+    height: 450px;
+    background-image: url(../img/ndimg-post-01.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innerb3 {
+    height: 450px;
+    background-image: url(../img/ndimg-post-05.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb3:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innerb4 {
+    height: 450px;
+    background-image: url(../img/ndimg-post-03.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb4:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innerb5 {
+    height: 450px;
+    background-image: url(../img/ndimg-post-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb5:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innerb6 {
+    height: 450px;
+    background-image: url(../img/ndimg-post-04.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+}
+
+.innerb6:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.search {
+    display: flex;
+    max-width: 500px;
+    border: 1px solid #d4d4d4;
+}
+
+.searchinput {
+    flex: 1;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    color: #363636;
+    
+}
+
+.searchbtn {
+    background-color: #bf9261;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.searchbtn:hover {
+    background-color: #363636;
+}
+
+.smallblog {
+    font-size: 24px;
+    font-family: Cormorant-bold;
+    /* border: 1px solid black; */
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.imgsm1 {
+    height: 90px;
+    overflow: hidden;
+        /* border: 1px solid black; */
+
+}
+/* .bl{
+            /* border: 1px solid black; */
+
+
+.innrblg1 {
+    height: 90px;
+    background-image: url(../img/ndimg-post-05.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.innrblg1:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innrblg2 {
+    height: 90px;
+    background-image: url(../img/ndimg-post-03.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.innrblg2:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.innrblg3 {
+    height: 90px;
+    background-image: url(../img/ndimg-post-02.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    transition: 3s;
+
+}
+
+.innrblg3:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.blogsc {
+    height: 300px;
+    /* background: rgba(0, 0, 0, 0.3); */
+    background-image: url(../img/ndimg-parallax-01.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: 1s;
+    /* margin-bottom: 30px !important; */
+
+}
+
+.blogsc:hover {
+    background-image: url(../img/ndimg-parallax-05.jpg);
+}
+
+.innershadow2 {
+    height: 300px;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+/* .innershadow:hover{
+           background:none;
+
+} */
+.hqs {
+    height: 30px;
+    /* background-color: blue; */
+    font-size: 24px;
+    font-family: Cormorant-bold;
+    color: white;
+    margin-top: 50px;
+    /* text-align: center !important; */
+
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.prof {
+    width: 250px;
+    font-size: 16px;
+    font-family: Cormorant-bold;
+    color: white;
+    margin-top: -100px;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+/* Services */
+
+.conservice{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.5)),url(../img/ndimg-headerservices01-01.jpg);
+     height: 850px;
+    background-size: cover;
+    background-position: center;    
+}
+
+.main-4 {
+    margin-top: 10px;
+    /* height: 800px; */
+    /* background-color: rgb(172, 172, 203); */
+}
+
+/* .plan { */
+    /* height: 562px; */
+    /* border: 1px solid black ; */
+
+
+.border {
+    /* height: 562px; */
+    /* width: 350px; */
+    border: 1px solid #e7e6e6;
+    background-color: white;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+.currency {
+    font-size: 20px;
+    font-family: Cormorant-bold;
+
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.number2 {
+    font-size: 40px;
+    font-family: Cormorant-bold;
+}
+
+@font-face {
+    font-family: Cormorant-bold;
+    src: url(../fonts/cormorant/Cormorant-Bold.otf);
+}
+
+.per {
+    font-size: 16px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+
+.text-left {
+    text-align: center !important;
+    color: #808080 !important;
+    line-height: 40px;
+}
+
+.gry {
+    color: #e7e6e6;
+
+}
+
+.but {
+    height: 48px;
+    width: 250px;
+    background-color: #bf9261;
+    color: white;
+    margin-top: 25px;
+    outline: none;
+    border: none;
+    transition: 1s;
+}
+
+.but:hover {
+    background-color: #363636;
+    /* color: white; */
+    /* border: 2px solid #bf9261; */
+}
+
+/* .subtitle2 {
+    font-size: 16px;
+    font-family: Jost-Regular;
+    /* text-transform: uppercase; */
+    /* color: #bf9261; */
+    /* letter-spacing: 1px; */
+
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+.star {
+    font-size: 40px;
+    font-family: Jost-Regular;
+}
+
+@font-face {
+    font-family: Jost-Regular;
+    src: url(../fonts/jost-3/Jost-Regular.ttf);
+}
+                            
+
+                                      /* the end */
